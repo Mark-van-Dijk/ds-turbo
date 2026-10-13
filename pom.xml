@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.dsturbo</groupId>
+    <artifactId>ds-turbo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>ds-turbo</name>
+
+    <properties>
+        <java.version>21</java.version>
+        <maven.compiler.release>21</maven.compiler.release>
+    </properties>
+
+    <modules>
+        <module>ds-turbo-model</module>
+        <module>ds-turbo-parser</module>
+        <module>ds-turbo-generator-core</module>
+        <module>ds-turbo-generator-java</module>
+        <module>ds-turbo-cli</module>
+        <module>ds-turbo-starter</module>
+    </modules>
+
+</project>
